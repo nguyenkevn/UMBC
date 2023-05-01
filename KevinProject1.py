@@ -4,7 +4,7 @@ print("Welcome to the UMBC \nCar Customization Form!")
 print("============================== \n")
 
 #Printing directions
-print("(For multiple choice problems, please enter the letter of the selection you're looking for")
+print("(For multiple choice problems, please enter the letter of the selection you're looking for)")
 
 #Printing header
 print("~ Make & Model ~")
