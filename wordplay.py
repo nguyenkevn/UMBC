@@ -91,7 +91,7 @@ print(r"""
 """)
 
 # Game Logic
-secret = "FLOWER"
+secret = "HARBOR"
 counter = 5
 for i in range(5):
   guess = getSixLetterInput()
@@ -100,6 +100,7 @@ for i in range(5):
   if guess == secret:
     print("\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print(f"Congratulations, you are a Word Play master! You had {counter} turns left")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     exit()
   if i < 4: 
     print(f"\n\n{counter} turns left")
